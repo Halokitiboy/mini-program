@@ -1,0 +1,18 @@
+@mixin rounded7px($color, $radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background: $color;
+}
+@mixin borderTop($color, $width) {
+  border-top: $width solid $color;
+}
+@mixin hexagon-generator($hexagon-width, $factor, $border-radius) {
+  display: inline-block;
+  border-radius: 50%;
+  width: ($hexagon-width + $border-radius) * $factor;
+  height: ($hexagon-width + $border-radius) * $factor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

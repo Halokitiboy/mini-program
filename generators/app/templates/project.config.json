@@ -1,0 +1,38 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"setting": {
+		"urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "uglifyFileName": false
+	},
+	"appid": "<%= appid %>",
+	"projectname": "<%= appName %>",
+	"libVersion": "2.2.5",
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "node_modules"
+			},
+			{
+				"type": "suffix",
+				"value": ".map"
+			},
+			{
+				"type": "suffix",
+				"value": ".css"
+			}
+		]
+	},
+	"scripts": {
+		"beforeCompile": "echo 1",
+		"beforePreview": "echo 2",
+		"beforeUpload": "echo 3"
+	},
+	"compileType": "miniprogram"
+}

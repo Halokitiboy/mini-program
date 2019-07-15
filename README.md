@@ -3,14 +3,14 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-zt-miniprogram using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+首先安装下面的包
 
 ```bash
 npm install -g yo
 npm install -g generator-zt-miniprogram
 ```
 
-Then generate your new project:
+初始化项目
 
 ```bash
 yo zt-miniprogram

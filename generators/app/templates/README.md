@@ -35,5 +35,3 @@ npm run dev
 - 代码格式化 prettier
 - 加入westore实现数据管理功能
 
-### 4.说明
-- 此脚手架在[generator-imweb-wxapp](https://github.com/imweb/generator-imweb-wxapp) 上做的部分修改，有兴趣的朋友可以去看看

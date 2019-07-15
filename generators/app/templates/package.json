@@ -40,7 +40,7 @@
     }
   },
   "keywords": [],
-  "author": "",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.0.1",

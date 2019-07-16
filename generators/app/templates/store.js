@@ -1,6 +1,6 @@
 export default {
     data: {
-        motto: 'Hello xzc',
+        motto: 'Hello world',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),

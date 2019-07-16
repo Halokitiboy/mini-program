@@ -1,12 +1,12 @@
 {
   "name": "generator-zt-miniprogram",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "小程序脚手架",
-  "homepage": "",
+  "homepage": "https://github.com/Halokitiboy/mini-program",
   "author": {
     "name": "xiazc_1991",
     "email": "1056073482@qq.com",
-    "url": ""
+    "url": "https://github.com/Halokitiboy/mini-program"
   },
   "files": [
     "generators"

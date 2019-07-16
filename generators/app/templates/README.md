@@ -35,3 +35,35 @@ npm run dev
 - 代码格式化 prettier
 - 加入westore实现数据管理功能
 
+### 4.目的
+
+- 解决各成员代码规范不一致的问题
+- 解决代码提交不规范的问题
+- 解决图片不能设置背景图的问题
+- 数据管理能力
+
+### 5.其他
+- 使用 async await 引入下列文件即可
+``` 
+import regeneratorRuntime from './utils/regeneratorRuntime'
+
+```
+-  使用 promise
+
+``` 
+ let util = require('./utils/wxPromise');
+ Page({
+     makePhoneCall(){
+        let makePhoneCall =  util.wxPromise(wx.makePhoneCall);
+            makePhone({
+                phoneNumber: number
+            }).then(res=>{
+
+            }).catch(res=>{
+                
+            })
+     }
+ })
+
+```
+

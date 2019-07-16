@@ -4,6 +4,7 @@ const fs = require("fs");
 const Generator = require("yeoman-generator");
 const getName = require("imweb-git-user-name");
 const chalk = require("chalk");
+const yosay = require("yosay");
 
 const validator = require("../../lib/validator");
 
@@ -36,8 +37,14 @@ const tpls = [
 module.exports = class extends Generator {
   constructor(args, opts) {
     super(args, opts);
-
     this.userName = getName(true);
+    this.log(
+      yosay(
+        "Welcome to the peachy " +
+          chalk.red("generator-zt-miniprogram") +
+          " generator!"
+      )
+    );
   }
 
   prompting() {
@@ -85,6 +92,7 @@ module.exports = class extends Generator {
     ];
 
     return this.prompt(prompts).then(props => {
+      props.appid = props.appid.trim();
       if (!props.author) {
         props.author = this.userName;
       }

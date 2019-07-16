@@ -13,6 +13,8 @@ npm install -g generator-zt-miniprogram
 ### 初始化项目
 
 ```bash
+mkdir projectName
+cd projectName
 yo zt-miniprogram
 ```
 

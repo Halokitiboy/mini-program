@@ -40,7 +40,7 @@ npm run dev
 - 图片及svg压缩，命令为 `gulp img`（图片压缩的 npm 需要配置代理或使用staffwifi）
 - 代码规范（eslint、stylelint、commitlint）
 - 代码格式化 prettier
-- westore数据管理
+- [westore](https://github.com/Tencent/westore)数据管理
 - async
 - 封装wxPromise 
 
